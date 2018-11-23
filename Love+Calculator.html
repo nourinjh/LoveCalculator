@@ -1,0 +1,44 @@
+
+<HTML>
+<HEAD><TITLE>Love Calculator</TITLE><HEAD>
+<BODY BGCOLOR="LightPink">
+<SCRIPT LANGUAGE="JavaScript">
+
+/**************************************************************** 
+Name:			Nourin Abd El Hadi
+Date:			April 6th, 2016
+Course Code: 		ICS201
+Teacher's Name: 	Mrs.Abram
+Program Name:		Love Calculator
+Description:		To calculate the probability a relationship between two people will work out
+Notes:			No notes
+*****************************************************************/
+
+//writing the title
+document.write("<FONT FACE='Edwardian Script ITC' SIZE='9'>")
+document.write("<CENTER><B> Love Calculator <HR COLOR='black'></B></CENTER>")
+document.write("</FONT>")
+
+//inputting names
+var name1 = prompt("Enter the first name")
+var name2 = prompt("Enter the second name")
+
+//output names with percentage
+document.write("<FONT FACE='Calibri' SIZE='+3'>")
+document.write("<CENTER><B><P>")
+document.write(name1+ "<P><IMG SRC='heart.png' HEIGHT='80'><P>"+name2)
+document.write("<HR COLOR='black'></CENTER></B></FONT>")
+
+//calculating results
+var large = 100
+var love = Math.floor(Math.random()*large)+1
+
+//outputing results
+document.write("<B><FONT FACE='Edwardian Script ITC' SIZE='7'>")
+document.write("<BR><CENTER>Your compatibility is "+love+"% </CENTER>")
+document.write("</B></FONT>")
+
+</SCRIPT>
+</BODY>
+</HTML>
+
